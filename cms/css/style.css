@@ -1,0 +1,174 @@
+body
+{
+	font-family: 'oswald',sans-serif;
+	background-color:#EEEDED; 
+}
+.navbar-brand img
+{
+	margin-top: -5px;
+}
+.navbar-brand *{
+	color: white;
+
+}
+.jumbotron{
+	height: 200px;
+	overflow: hidden;
+}
+.jumbotron #details{
+	position: absolute;
+	 
+}
+.jumbotron img{
+	width: 100%;
+}
+.jumbotron #details span{
+	color: #24A7CF;
+}
+.popular{
+	background-color: white;
+ padding: 20px;
+	border-radius: 20px;
+}
+.popular img{
+	width: 100%;
+	margin-top: 10px; 
+}
+.widgets .popular ul li{
+	list-style: none;
+}
+.catagory{
+	background-color: white;
+ padding: 20px;
+	border-radius: 20px;
+
+}
+
+section .widgets{
+	margin-bottom:20px;
+}
+
+.post
+{
+	background-color:  white;
+	border:1px solid  #E3E3E3;
+}
+.post .post-date{
+	padding: 20px;
+	text-align: center;
+		
+}
+.post .post-date .day{
+	font-size:30px;
+color:#24A7CF;
+}
+.post .post-date .mounth{
+	font-size: 18px;
+}
+
+.post .post-date .year{
+	font-size: 18px;
+font-weight: 100px;
+}
+.post .post-title{
+	padding: 20px;
+	border-left: 1px solid  #E3E3E3;
+}
+.post .post-title span{
+	color: #24A7CF;
+	font-weight: 100;
+	margin-left: 10px;
+}
+.post .profile-picture{
+	padding: 20px;
+}
+.post .profile-picture img{
+width:80%px;
+}
+.post >a > img{
+width:100%;
+}
+.post .desc{
+	font-family: arial;
+	font-weight: 100;
+	padding: 20px;
+	line-height: 20px;
+}
+.post > a .btn{
+margin-left:15px;
+}
+nav#pagination{
+	text-align: center;
+
+
+}
+.pagination > li > a{
+	padding: 15px 25px;
+	font-size: 18px;
+}
+
+footer{
+	height: 15px;
+	line-height: 15px;
+	background-color: black;
+	letter-spacing: 2px;
+	color: white;
+	font-size: 18px;
+}
+a{
+	color: #24A7CF;
+}
+a:hover
+{
+	color: #24A7CF;
+}
+.contact-form{
+	background-color: white;
+	padding:35px 25px;
+}
+.contact-form h2{
+	color: #24A7CF;
+}
+
+.releted-posts{
+	background-color: white;
+	padding: 20px;
+}
+.releted-posts img{
+	width: 100%;
+}
+.releted-posts h3{
+	
+	color: #24A7CF;
+}
+@media(max-width: 785px){
+	 
+.jumbotron #details{
+margin-top:20px;
+}
+.post .post-title{
+     margin-top:-30px;
+      text-align:center;
+}
+.post .profile-picture {
+	text-align: center;
+}
+.post .profile-picture img{
+width:40%px;
+}
+.pagination > li > a{
+       padding: 10px 10px;
+	font-size: 13px;
+}
+footer{
+	 
+	color: white;
+	font-size: 10px;
+}
+.navbar-inverse .navbar-nav >li >a{
+text-align:center;
+}
+.navbar-inverse .navbar-nav .dropdown-menu >li >a {
+text-align:center;
+}
+}
